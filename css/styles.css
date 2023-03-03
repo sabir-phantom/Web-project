@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+    overflow: hidden;
+  }
+  
+  .containter  {
+    position: relative;
+  }
+
+.bg-layer {
+  position: absolute;
+  background: linear-gradient(211.36deg, #41528E 36.99%, #1A99A2 77.91%);
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: normal;
+  transform: rotate(-179.9deg);
+
+}
+
+
+  .card-body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,  -50%);
+    background-color: white;
+    border-radius: 10px;
+  }
