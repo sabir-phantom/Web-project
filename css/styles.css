@@ -52,6 +52,7 @@ form {
 }
 .card-text h5 {
   font-size: 25px;
+  font-weight: 400;
 }
 
 .form-group {
@@ -80,5 +81,13 @@ form {
   height: 50px;
   font-size: 22px;
   color: aliceblue;
-  margin-top: 25px;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+form a {
+  text-align: center;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
 }
