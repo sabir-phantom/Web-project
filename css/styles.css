@@ -14,11 +14,13 @@ body {
 .bg-layer {
   position: absolute;
   background: linear-gradient(211.36deg, #41528E 36.99%, #1A99A2 77.91%);
+  background-size: cover;
   width: 100%;
   height: 100%;
+  border-right: 100% solid transparent;
   mix-blend-mode: normal;
   transform: rotate(-179.9deg);
-
+  clip-path: polygon(30% 100%, 100% 100%, 100% -80%);
 }
 
 
