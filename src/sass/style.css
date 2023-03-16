@@ -5,7 +5,6 @@
     height: auto; */
   font-family: outfit;
   overflow: hidden;
-  box-sizing: border-box;
 }
 
 .containter {
@@ -21,7 +20,8 @@
   height: 100%;
   mix-blend-mode: normal;
   transform: rotate(-180deg);
-  clip-path: polygon(30% 100%, 100% 100%, 100% -80%);
+  -webkit-clip-path: polygon(30% 100%, 100% 100%, 100% -80%);
+          clip-path: polygon(30% 100%, 100% 100%, 100% -80%);
 }
 
 /* form card */
@@ -34,7 +34,7 @@ form {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 500px;
+  width: 342px;
   transform: translate(-50%, -50%);
   background-color: white;
   border-radius: 10px;
@@ -51,6 +51,7 @@ form {
   font-size: 36px;
   padding-bottom: 15px;
 }
+
 .card-text h5 {
   font-size: 25px;
   font-weight: 400;
@@ -91,4 +92,4 @@ form a {
   font-size: 20px;
   text-decoration: none;
   color: black;
-}
+}/*# sourceMappingURL=style.css.map */
