@@ -6,7 +6,7 @@
     font-family: outfit;
     overflow: hidden;
   }
-
+/* navbar */
   .navbar {
     position: fixed;
     width: 100%;
@@ -19,4 +19,14 @@
     padding-left: 75px;
     margin-top: 25px;
     margin-bottom: 25px;
+}
+
+/* sidebar */
+.sidebar {
+    width: 260px;
+    height: 842px;
+    background-color: aquamarine;
+    margin-top: 120px;
+    border-radius: 0px 20px 20px 0px;
+    background: linear-gradient(199.57deg, #41528E 34.02%, #1A99A2 104.29%), #41528E;
 }
