@@ -65,7 +65,7 @@
   top: 125px;
   left: 350px;
   width: 70%;
-  height: 700px;
+  height: auto;
 }
 
 .top-sec {
@@ -127,10 +127,10 @@
 
 .main-container .card {
   position: relative;
-  min-width: 320px;
+  min-width: 360px;
   height: 300px;
   border-radius: 15px;
-  /* margin: 30px; */
+  margin-bottom: 20px;
 }
 .main-container .card .box {
   position: absolute;
