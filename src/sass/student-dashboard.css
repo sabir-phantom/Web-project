@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* width: 100%;
+      height: auto; */
+    font-family: outfit;
+    overflow: hidden;
+  }
+
+  .navbar {
+    position: fixed;
+    width: 100%;
+    height: 115px;
+  }
+
+  .user-img img {
+    width: 65px;
+    height: 65px;
+    padding-left: 75px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
