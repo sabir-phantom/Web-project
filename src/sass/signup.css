@@ -72,9 +72,9 @@
     margin-bottom: 10px;
   }
   
-  .form-group input:last-child {
+  /* .form-group input:last-child {
     margin-top: 10px;
-  }
+  } */
   
   .submit {
     background: #41528e;
@@ -87,9 +87,15 @@
     cursor: pointer;
   }
   
-  form a {
+  form p {
     text-align: center;
-    font-size: 20px;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  form p a {
+    font-weight: bold;
+    cursor: pointer;
     text-decoration: none;
-    color: black;
+    color: black; 
   }

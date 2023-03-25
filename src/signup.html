@@ -10,7 +10,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/sass/style.scss" />
-    <link rel="stylesheet" href="./sass/style.css">
+    <link rel="stylesheet" href="./sass/signup.css">
     <title>Exam Management System</title>
   </head>
   <body>
@@ -22,19 +22,21 @@
 
       <div class="card-body">
         <div class="card-text">
-          <h3>Let’s Sign you in</h3>
+          <h3>Let’s Register</h3>
           <h5>Welcome to online Exam Management System</h5>
         </div>
         
         <div class="form login_form">
           <form>
             <div class="form-group">
-              <input type="text" name="email" value="" placeholder="Email" />
+              <input type="text" name="name" placeholder="Full Name">
+              <input type="text" name="id" value="" placeholder="ID" />
               <input type="password" name="password" placeholder="Password"/>
+              <input type="password" name="password" placeholder="Confirm Password"/>
             </div>
             
-            <button class="submit">Sign In</button>
-            <a href="#">Forgot password?</a>
+            <button class="submit">Sign Up</button>
+            <p>Already have an account? <a href="./login.html">Login here</a></p>
             
           </form>
         </div>
