@@ -60,23 +60,35 @@
 /* ~~~sidebar~~~ */
 
 /* Main container */
-section {
+.container {
   position: absolute;
   top: 125px;
   left: 350px;
   width: 70%;
   height: 700px;
-  background-color: #1a99a2;
 }
 
 .top-sec {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 25px;
 }
 
 .container .title {
-  
+  width: auto;
+}
+
+.container .title h3{
+  font-size: 26px;
+  font-weight: 700;
+  color: #353535;
+}
+
+.container .title h4 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #CCCCCC;
 }
 
 /* searchbar */
@@ -84,7 +96,6 @@ section {
   padding: 6px;
   margin-top: 8px;
   font-size: 17px;
-  border: none;
 }
 .top-sec .search-course button {
   width: auto;
@@ -101,4 +112,93 @@ section {
 
 .search-course form {
   display: flex;
+}
+
+
+/* cards */
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1600px;
+  margin: 40px 0;
+}
+
+.main-container .card {
+  position: relative;
+  min-width: 320px;
+  height: 300px;
+  border-radius: 15px;
+  /* margin: 30px; */
+}
+.main-container .card .box {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: #2a2b2f; */
+  /* border: 2px solid #1e1f23; */
+  border-radius: 15px;
+  box-shadow: 0 20px 50px rgba(153, 153, 153, 0.5);
+  transition: 0.5s;
+  overflow: visible;
+}
+.main-container .card .box:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  /* background: rgba(255, 255, 255, 0.05); */
+  pointer-events: none;
+}
+.main-container .card .box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 40px 70px rgba(0, 0, 0, 0.5);
+}
+.main-container .card .box .content {
+  padding: 20px;
+  text-align: center;
+}
+.main-container .card .box .content h2 {
+  position: absolute;
+  top: -10px;
+  right: 30px;
+  font-size: 8em;
+  /* color: rgba(0, 0, 0, 0.05); */
+}
+.main-container .card .box .content h3 {
+  font-size: 1.8em;
+  color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  transition: 0.5s;
+}
+.main-container .card .box .content p {
+  font-size: 16px;
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  transition: 0.5s;
+}
+.main-container .card:hover .box .content h3,
+.main-container .card:hover .box .content p {
+  color: rgb(35, 35, 35);
+}
+.main-container .card .box .content a {
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  background: #1a99a2;
+  margin-top: 15px;
+  text-decoration: none;
+  border-radius: 20px;
+  font-weight: 400;
+  color: #fff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
