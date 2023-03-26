@@ -139,6 +139,8 @@
   margin-bottom: 20px;
 }
 .main-container .card .box {
+  display: flex;
+  flex-direction: column;
   position: absolute;
   top: 20px;
   left: 20px;
@@ -219,7 +221,8 @@
   background-color: #e2e1e1;
   border-radius: 5px;
   margin: 20px;
-  margin-top: 100px;
+  margin-top: auto;
+  margin-bottom: 40px;
 }
 
 .prog-bar {
