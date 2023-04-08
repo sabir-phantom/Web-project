@@ -231,3 +231,20 @@
   background-color: #1a99a2 !important;
   border-radius: 5px;
 }
+/* progress bar */
+.main-container .progres-bar {
+  width: auto;
+  height: 10px;
+  background-color: #e2e1e1;
+  border-radius: 5px;
+  margin: 20px;
+  margin-top: auto;
+  margin-bottom: 40px;
+}
+
+.p-bar {
+  width: 70%;
+  height: 10px;
+  background-color: #1a99a2 !important;
+  border-radius: 5px;
+}
